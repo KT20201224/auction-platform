@@ -36,4 +36,8 @@ public class AuctionItem {
     private User user;
 
     private LocalDateTime createdAt = LocalDateTime.now();
+
+    public AuctionItem(Long id){
+        this.id = id;
+    }
 }
