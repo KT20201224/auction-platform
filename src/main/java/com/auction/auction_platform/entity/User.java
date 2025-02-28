@@ -28,4 +28,8 @@ public class User {
     private String oauthProvider;
     private LocalDateTime createdAt = LocalDateTime.now();
 
+    public User(Long id){
+        this.id = id;
+    }
+
 }
